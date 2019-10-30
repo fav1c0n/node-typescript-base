@@ -1,11 +1,11 @@
 {
-  "name": "ng-tools-audit",
+  "name": "node-typescript-base",
   "version": "1.0.0",
-  "description": "Tool for audit webpages and angular projects",
+  "description": "blank project node js with typescript configured",
   "main": "dist/app.js",
   "scripts": {
     "start": "tsc && node dist/app.js",
-    "lint": "eslint . --ext .js,.jsx,.ts,.tsx",
+    "lint": "eslint . --ext .js,.ts",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
