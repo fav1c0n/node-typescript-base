@@ -1,0 +1,16 @@
+{
+  "name": "ng-tools-audit",
+  "version": "1.0.0",
+  "description": "Tool for audit webpages and angular projects",
+  "main": "dist/app.js",
+  "scripts": {
+    "start": "tsc && node dist/app.js",
+    "lint": "eslint . --ext .js,.jsx,.ts,.tsx",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^3.6.4"
+  }
+}
